@@ -3,7 +3,7 @@
 }
 
 .header {
-
+    background-color: #1f2937;
 }
 
 .logo {
@@ -15,7 +15,8 @@
 }
 
 .banner {
-
+    background-color: #1f2937;
+    color: #F9FAF8;
 }
 
 .info {
@@ -31,5 +32,11 @@
 }
 
 .footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
 }
