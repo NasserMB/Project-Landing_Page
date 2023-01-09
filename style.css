@@ -30,6 +30,13 @@
     gap: 16px;
 }
 
+.banleft > button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 5px;
+    border-radius: 10%;
+}
+
 .info {
     padding: 50px 100px;
     margin: 0;
@@ -38,8 +45,18 @@
     align-items: center;
 }
 
+.info > h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
 .cards {
     display: flex;
+}
+
+.card {
+    text-align: ;
 }
 
 .cardimg {
@@ -47,17 +64,50 @@
     border-radius: 15%;
     width: 200px;
     height: 200px;
+    align-content: center;
 }
 
 .qoute {
     background-color: #E5E7E8;
     padding: 50px 100px;
     margin: 0;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.attr {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+    font-size: 26px;
+    font-weight: 900;
 }
 
 .call {
-    padding: 50px 100px;
-    margin: 0;
+    padding: 50px;
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+.calltext {
+    border-radius: 25%;
+}
+
+.callbutton {
+    align-self: center;
+}
+
+.callbutton > button {
+    background-color: #3882f6;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 5px;
+    border-radius: 10%;
 }
 
 .footer {
@@ -65,6 +115,8 @@
     color: #F9FAF8;
     padding: 50px 100px;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
